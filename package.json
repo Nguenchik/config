@@ -1,0 +1,26 @@
+{
+  "name": "NG",
+  "version": "",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uncss": "^1.0.6",
+    "gulp-watch": "^4.3.11",
+    "postcss-scss": "^1.0.3",
+    "pug": "^2.0.0-rc.4",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
