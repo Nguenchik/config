@@ -1,0 +1,8 @@
+host repos.1001tour.ru
+ HostName repos.1001tour.ru
+ IdentityFile ~/.ssh/anguenPriv
+ User anguen
+ host repos.1001tour.ru
+ HostName repos.1001tour.ru
+ IdentityFile ~/.ssh/anguenPub
+ User anguen
